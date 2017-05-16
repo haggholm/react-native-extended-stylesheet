@@ -3,6 +3,7 @@ import Style from './style';
 import utils from './utils';
 import vars from './replacers/vars';
 import mediaQueries from './replacers/media-queries';
+import addCSS from './css';
 
 export default class {
   /**
@@ -76,6 +77,7 @@ export default class {
   }
 
   getResult() {
+    addCSS(this.result);
     return this.result;
   }
 }

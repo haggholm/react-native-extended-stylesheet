@@ -28,6 +28,8 @@
   "license": "MIT",
   "dependencies": {
     "css-mediaquery": "^0.1.2",
+    "decamelize": "^1.2.0",
+    "hash-object": "^0.1.7",
     "object-resolve-path": "^1.1.0"
   },
   "devDependencies": {
